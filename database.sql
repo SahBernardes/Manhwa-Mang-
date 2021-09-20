@@ -10,9 +10,10 @@ create Table Lista(
     PRIMARY KEY (id)
 )DEFAULT charset= utf8; 
 
-INSERT INTO MeusMangas 
+INSERT INTO Lista 
 (Nome_Ingles, Nome_Espanhol, Ultimo_Cap_Lido, Manghwa_manga, leitura, Terminado)
 VALUES
 ('the mutual relationship between the rabbit and the black panther', 'la relacion de la liebre y la pantera', '38', 'EL', 'L', 'No'),
 ('Ill be the matriarch in this life', 'Seré la matriarca en esta vida', '47','EL','L','No'),
 ('doctor elise', 'doctora elise', '143', 'T', 'T', 'Yes');
+
