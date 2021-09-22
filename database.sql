@@ -38,3 +38,8 @@ VALUES
 
 SELECT * FROM lista;
 
+INSERT INTO lista 
+(Nome_Ingles, Nome_Espanhol, Ultimo_Cap_Lido, Manghwa_manga, leitura, Terminado)
+VALUES
+('I became the adoptive daughter of the male lead','me converti en la hija adoptiva del protagonista masculino','22','RL','L','No'),
+('the tyrants only perfume','la perfumista del tirano','28','EL','L','No')
